@@ -46,7 +46,7 @@ h1{
     border: 1px solid black;
     width: 650px;
     max-width: 650px;
-    height: 500px;
+    height: 820px;
     margin-top: 30px;
     background-color: white;
     
@@ -107,3 +107,61 @@ h1{
   body{
     background:url(../img/mixkit-blue-bubbles-295-0.jpg) ;
   }
+  h2{
+    font-size: 36px;
+    color: #4aaaa5;
+  }
+  .portfolio-ic{
+    height: 900px;
+    width: 600px;
+    margin: 34px 24px 24px 24px;
+  }
+.port1,
+.port2,
+.port3,
+.port4,
+.port5{
+  border: 1px solid black;
+  height: 210px;
+  width: 280px;
+  display: inline-block;
+  margin-top: 20px;
+  position: relative;
+  box-sizing: border-box;
+  
+}
+.port4, 
+.port2{
+  float: right;
+
+}
+.port3,
+.port4{
+  margin-top:20px ;
+}
+.port1-yazi,
+.port2-yazi,
+.port3-yazi,
+.port4-yazi,
+.port5-yazi{
+  position: absolute;
+  left: 0px;
+  bottom: 15px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  
+
+}
+ 
+.port1 img,
+.port2 img,
+.port3 img,
+.port4 img,
+.port5 img{
+  width: 100%;
+}
